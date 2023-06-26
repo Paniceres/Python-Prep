@@ -24,7 +24,7 @@ En Python existe la posibilidad de realizar estas pruebas gracias a la librería
 >>>         num_1 = 10
 >>>         num_2 = 5
 >>> 
->>>         resultado = suma(num_1, num_2)
+>>>         resultado = sum(num_1, num_2)
 >>> 
 >>>         self.assertEqual(resultado, 15)
 >>> 
@@ -32,7 +32,7 @@ En Python existe la posibilidad de realizar estas pruebas gracias a la librería
 >>>         num_1 = -10
 >>>         num_2 = -7
 >>> 
->>>         resultado = suma(num_1, num_2)
+>>>         resultado = sum(num_1, num_2)
 >>> 
 >>>         self.assertEqual(resultado, -17)
 >>>
@@ -185,40 +185,40 @@ Es importante resaltar que ambos estilos pueden utilizarse en Python, pero el es
 #All possible errors
 
 except TypeError:
-    print("is thrown when an operation or function is applied to an object of an inappropriate type.")
+    print("se produce cuando se aplica una operación o función a un objeto de un tipo inapropiado.")
 except IndexError:
-   	print("is thrown when trying to access an item at an invalid index.")
+   	print("se produce cuando se intenta acceder a un elemento en un índice no válido.")
 except KeyError:
-    print("is thrown when a key is not found.")
+    print("se produce cuando no se encuentra una clave.")
 except ImportError:
-  	print("Raised when the imported module is not found.")
+  	print("Se produce cuando el módulo importado no se encuentra.")
 except StopIteration:
-  	print("is thrown when the next() function goes beyond the iterator items.")
+  	print("se produce cuando la función next() supera los elementos del iterador.")
 except ValueError:
-  	print("is thrown when a function's argument is of an inappropriate type.")
+  	print("se produce cuando el argumento de una función es de un tipo inapropiado.")
 except NameError:
-  	print("is thrown when an object could not be found.")	
+  	print("se produce cuando no se encuentra un objeto.")
 except ZeroDivisionError:
-  	print("is thrown when the second operator in the division is zero.")
+  	print("se produce cuando el segundo operador en la división es cero.")
 except KeyboardInterrupt:
-  	print("is thrown when the user hits the interrupt key (normally Control-C) during the execution of the program.")
+  	print("se produce cuando el usuario presiona la tecla de interrupción (normalmente Control-C) durante la ejecución del programa.")
 except MemoryError:
-  	print("Raised when an operation runs out of memory.")
+  	print("Se produce cuando una operación se queda sin memoria.")
 except FloatingPointError:
-  	print("Raised when a floating point operation fails.")
+  	print("Se produce cuando una operación de punto flotante falla.")
 except OverflowError:
-  	print("Raised when the result of an arithmetic operation is too large to be represented.")
+  	print("Se produce cuando el resultado de una operación aritmética es demasiado grande para ser representado.")
 except ReferenceError:
-  	print("Raised when a weak reference proxy is used to access a garbage collected referent.")
+  	print("Se produce cuando se utiliza una referencia débil para acceder a un referente recogido por el recolector de basura.")
 except TabError:
-  	print("Raised when the indentation consists of inconsistent tabs and spaces.")
+  	print("Se produce cuando la indentación consiste en tabulaciones y espacios inconsistentes.")
 except SystemError:
-  	print("Raised when the interpreter detects internal error.")
+  	print("Se produce cuando el intérprete detecta un error interno.")
 except RuntimeError:
-  	print("Raised when an error does not fall under any other category.")
+  	print("Se produce cuando un error no se clasifica en ninguna otra categoría.")
 except:
- 	print("Error detected can't be handled nor clasified.")
-```
+ 	print("Se ha detectado un error que no puede ser manejado ni clasificado.")
+
 
 ## Afirmaciones
 
