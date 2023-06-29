@@ -1,0 +1,2 @@
+
+a = Animal('perro', 'blanco')
