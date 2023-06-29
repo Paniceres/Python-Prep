@@ -101,7 +101,7 @@ def EsPrimo(valor):
     for i in range(2, valor):
         if valor % i == 0:
             return False
-    return Tr
+    return True
 
 class ClaseAnimal:
     def __init__(self, especie, color):
