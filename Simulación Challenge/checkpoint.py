@@ -101,6 +101,7 @@ def EsPrimo(valor):
     for i in range(2, valor):
         if valor % i == 0:
             return False
+            break
     return True
 
 class ClaseAnimal:
